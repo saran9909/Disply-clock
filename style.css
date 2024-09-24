@@ -1,21 +1,52 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color:darksalmon;
-    color:white;
-    margin-top: 2%;
     background-image: url(https://i.postimg.cc/FHkcQgHv/new-year-2025.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    font-size: 60px;
 }
-.countdown {
-    font-size: 88px;
-    margin-bottom: 20px;
-    color:palegreen;
-    font-family: Arial, Helvetica, sans-serif;
+
+.holiday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.current-time {
-    font-size: 60px;
-    color:aqua;
+
+h1 {
+    font-size: 100px;
+    background: linear-gradient(90deg, rgba(247, 226, 60, 1) 0%, rgba(127, 217, 13, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Dancing Script', cursive;
+}
+
+.audio {
+    display: flex;
+}
+
+button {
+    margin: 10px;
+    border: 2px solid orangered;
+    background-color: rgba(247, 226, 60, 1);
+    opacity: 0.7;
+    border-radius: 40%;
+    padding: 20px 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.time {
+    border: none;
+    padding: 50px 60px;
+    background: linear-gradient(90deg, rgba(247, 154, 60, 1) 0%, rgba(209, 37, 21, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
